@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timmies Dashboard</title>
+
+    <script>
+        function myfunction(){
+
+        }
+    </script>
+</head>
+<body>
+<h1> Welcome to Tim Hortons</h1>
+
+<form action="{% url createOrder %}" method="post">
+<button name="French Vanilla" type="submit">French Vanilla</button>
+<button name="Cup Cake" type="submit">Cup Cake</button>
+<button name="Croissant" type="submit">Croissant</button>
+<button name="Coffee" type="submit">Coffee</button>
+</form>
+
+</body>
+</html>
